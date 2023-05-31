@@ -1,0 +1,2 @@
+Query for the player with the most touchdown passes
+db.players.find().sort({ touchdownsThrown: -1 }).limit(1);
